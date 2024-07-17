@@ -1,0 +1,92 @@
+@media (max-width: 767px) {
+  .header .nav {
+    display: none;
+  }
+  .header .body {
+    display: flex;
+    justify-content: center;
+  }
+  .about .content-left .item {
+    width: 100%;
+  }
+  .fa-brands {
+  }
+
+  .main .home .content-left {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .main .home .ava {
+    width: 100%;
+    height: auto;
+    border-radius: 25%;
+    box-shadow: 3px 0px 20px #000000;
+    margin-left: 100%;
+    margin-top: 40px;
+  }
+  .main .home .content-right {
+    display: flex;
+    justify-content: center;
+  }
+  .skills .skills-item {
+    width: 100%;
+    flex-direction: column;
+  }
+  .skills .info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills .lable {
+    display: flex;
+    width: 100%;
+  }
+  .skills .content {
+    width: 100%;
+  }
+  .skills .boxSkill {
+    width: 40px;
+    height: 40px;
+  }
+  .skills .list-skills {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 0;
+    gap: 10px;
+  }
+  .skills .content .title {
+    font-size: 18px;
+    margin-top: 17px;
+  }
+  .blog-top .desc {
+    width: 100%;
+  }
+  .blog-bottom .item {
+    width: 100%;
+  }
+  .Photography .box-row {
+    justify-content: center;
+  }
+  .Photography .box-row .item-img {
+    margin-bottom: 10px;
+  }
+  .photography-conten .title {
+    font-size: 20px;
+  }
+  .photography-conten .info {
+    font-size: 18px;
+  }
+  .fa-brands:before {
+    width: 25px;
+    content: "\f39e";
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+  }
+}
